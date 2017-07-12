@@ -10,10 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // MARK - Actions
+    // MARK: - Outlets
+    @IBOutlet var txtMsg: UITextView!
+    
+    // MARK: - Actions
     @IBAction func showHello() {
         
-        let alert = UIAlertController(title: "Hello World", message: "Integração do Git com o Xcode", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Hello World", message: txtMsg.text, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true)
