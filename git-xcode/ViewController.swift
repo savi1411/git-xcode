@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     // MARK - Actions
     @IBAction func showHello() {
         
-        let alerta = UIAlertController(title: "Hello World", message: "Integração do Git com o Xcode", preferredStyle: .alert)
-        let acao = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alerta.addAction(acao)
-        present(alerta, animated: true)
+        let alert = UIAlertController(title: "Hello World", message: "Integração do Git com o Xcode", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true)
         
     }
 

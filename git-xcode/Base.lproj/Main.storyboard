@@ -31,8 +31,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ffY-qA-mh6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WeP-Nb-0fY"/>
-                            <constraint firstItem="ffY-qA-mh6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yhH-1L-o6o"/>
+                            <constraint firstItem="ffY-qA-mh6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4Ba-VF-B4f"/>
+                            <constraint firstItem="ffY-qA-mh6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U1M-DS-mIz"/>
                         </constraints>
                     </view>
                 </viewController>
