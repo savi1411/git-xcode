@@ -9,6 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK - Actions
+    @IBAction func showHello() {
+        
+        let alerta = UIAlertController(title: "Hello World", message: "Integração do Git com o Xcode", preferredStyle: .alert)
+        let acao = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alerta.addAction(acao)
+        present(alerta, animated: true)
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
